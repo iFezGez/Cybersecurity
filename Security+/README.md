@@ -2,7 +2,9 @@
 
 This section documents my hands-on laboratory work and practical training while preparing for the **CompTIA Security+ SY0-701** certification.
 
-The goal is to go beyond theoretical study by implementing, testing, troubleshooting, and documenting the security concepts covered by the certification objectives in an isolated cybersecurity home-lab environment.
+The goal is to go beyond theoretical study by implementing, testing, troubleshooting, and documenting security concepts from the certification objectives in a **dedicated virtualized cybersecurity home-lab environment**.
+
+[Back to Cybersecurity Portfolio](../)
 
 ---
 
@@ -10,21 +12,33 @@ The goal is to go beyond theoretical study by implementing, testing, troubleshoo
 
 The Security+ labs are performed primarily in a virtualized environment built with **Proxmox**.
 
-Systems and technologies used throughout the labs include:
+### Platforms and Operating Systems
 
 - Kali Linux
 - Ubuntu Server
 - Windows 11
 - pfSense
-- Wazuh
 - OpenWrt
-- Linux
+
+### Security and Network Tools
+
 - UFW
-- Nginx
 - OpenSSH
+- Nginx
 - Wireshark
+
+**Wazuh** is planned for later monitoring-focused labs as the environment expands.
+
+### Areas Practiced
+
 - Network segmentation
-- Security logging and monitoring
+- Host-based firewall configuration
+- Access control
+- Security logging and event analysis
+- Positive and negative testing
+- Secure service configuration
+- Troubleshooting
+- Backup, recovery, and service validation
 
 The environment will continue evolving as additional Security+ objectives and cybersecurity scenarios are implemented.
 
@@ -32,11 +46,11 @@ The environment will continue evolving as additional Security+ objectives and cy
 
 ## Security+ Labs
 
-### Domain 1 — General Security Concepts
+### Domain 1 - General Security Concepts
 
 | Objective | Lab | Topics | Status |
 |---|---|---|---|
-| 1.1 | [Security Controls](Labs/01-Security-Controls/) | Preventive, detective, directive, compensating and corrective controls | Completed |
+| 1.1 | [Security Controls](Labs/01-Security-Controls/) | Preventive, detective, directive, compensating, and corrective controls | Completed |
 
 Additional laboratories will be added as I progress through the Security+ SY0-701 objectives.
 
@@ -60,35 +74,33 @@ The general methodology includes:
 
 ---
 
-## Skills Developed
+## Skills Demonstrated in Current Labs
 
-The laboratories in this section are designed to develop practical experience with:
+The completed labs currently document practical experience with:
 
-- Network security
-- System hardening
-- Access control
-- Host-based firewalls
-- Network segmentation
-- Security monitoring
-- Log analysis
 - Linux administration
-- Windows security
-- Vulnerability assessment
-- Secure configuration
-- Incident detection
+- Host-based firewall configuration
+- Access-control enforcement
+- Firewall logging
+- Security event analysis
+- Positive and negative validation testing
+- SSH service configuration
+- Web-service configuration and validation
 - Troubleshooting
 - Backup and recovery
-- Security control validation
+- Security-control classification
+
+This section will expand as additional Security+ labs are completed.
 
 ---
 
 ## Documentation
 
-Each lab contains its own `README.md` with:
+Each lab contains its own `README.md` and supporting evidence. Depending on the objective, documentation includes:
 
 - Lab objectives
-- Environment and architecture
-- Commands used
+- Environment details
+- Commands and configuration changes
 - Step-by-step implementation
 - Screenshots and evidence
 - Positive and negative tests
