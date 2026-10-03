@@ -30,6 +30,8 @@ Tools and services used in documented lab work include:
 - OpenSSH
 - Nginx
 - Wireshark
+- auditd / auditctl / ausearch
+- PowerShell Get-FileHash
 
 The environment will continue evolving as new security scenarios, monitoring tools, and certification objectives are implemented.
 
@@ -54,7 +56,10 @@ Cybersecurity/
 └── Security+/
     ├── README.md
     └── Labs/
-        └── 01-Security-Controls/
+        ├── 01-Security-Controls/
+        │   ├── README.md
+        │   └── evidence/
+        └── 02-Fundamental-Security-Concepts/
             ├── README.md
             └── evidence/
 ```
@@ -66,6 +71,9 @@ Cybersecurity/
 - Host-based firewall controls
 - Security logging and monitoring
 - Access control
+- File integrity verification
+- Authentication, authorization, and accounting
 - Linux security administration
+- Security auditing and deception
 - Defensive security fundamentals
 - Penetration-testing fundamentals
