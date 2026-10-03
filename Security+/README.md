@@ -26,6 +26,8 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - OpenSSH
 - Nginx
 - Wireshark
+- PowerShell Get-FileHash
+- auditd, auditctl, and ausearch
 
 **Wazuh** is planned for later monitoring-focused labs as the environment expands.
 
@@ -34,6 +36,10 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - Network segmentation
 - Host-based firewall configuration
 - Access control
+- File integrity verification
+- Authentication, authorization, and accounting
+- Linux user, group, and file-permission administration
+- Security auditing and deception
 - Security logging and event analysis
 - Positive and negative testing
 - Secure service configuration
@@ -51,6 +57,7 @@ The environment will continue evolving as additional Security+ objectives and cy
 | Objective | Lab | Topics | Status |
 |---|---|---|---|
 | 1.1 | [Security Controls](Labs/01-Security-Controls/) | Preventive, detective, directive, compensating, and corrective controls | Completed |
+| 1.2 | [Fundamental Security Concepts](Labs/02-Fundamental-Security-Concepts/) | Integrity, authentication, authorization, accounting, deception, and auditing | Completed |
 
 Additional laboratories will be added as I progress through the Security+ SY0-701 objectives.
 
@@ -81,6 +88,12 @@ The completed labs currently document practical experience with:
 - Linux administration
 - Host-based firewall configuration
 - Access-control enforcement
+- SHA-256 file-integrity verification
+- Linux user and group administration
+- Unix ownership and permissions
+- Authentication and accounting log review
+- auditd file-access monitoring
+- Honeyfile-based deception
 - Firewall logging
 - Security event analysis
 - Positive and negative validation testing
