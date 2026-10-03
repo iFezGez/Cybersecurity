@@ -264,7 +264,7 @@ The screenshot shows `auditd.service` loaded as enabled and `active (running)`, 
 
 Create a decoy file under `/srv/shared`, write a clearly fabricated notice, and set permissions for the controlled read test.
 
-![The honeyfile contains only fabricated decoy text.](evidence/16-ubuntu-honyfile-create.png)
+![The honeyfile contains only fabricated decoy text.](evidence/16-ubuntu-honeyfile-create.png)
 
 **Commands:**
 
@@ -280,7 +280,7 @@ The `tee` output shows that the file contains only the stated decoy text. Mode `
 
 Add an audit rule for read access to the honeyfile, then query events associated with its key before the `guestlab` access test.
 
-![The audit watch is added and the initial audit events are queried.](evidence/17-ubuntu-honyfile-audit-base.png)
+![The audit watch is added and the initial audit events are queried.](evidence/17-ubuntu-honeyfile-audit-base.png)
 
 **Commands:**
 
@@ -295,7 +295,7 @@ sudo ausearch -k honeyfile_access -i
 
 Switch to the test account and read the decoy file to generate the monitored event.
 
-![guestlab reads the fabricated honeyfile content.](evidence/18-ubuntu-honyfile-access.png)
+![guestlab reads the fabricated honeyfile content.](evidence/18-ubuntu-honeyfile-access.png)
 
 **Commands:**
 
@@ -310,7 +310,7 @@ The screenshot shows the decoy text returned to `guestlab`. This is the controll
 
 Search audit records by the configured key and inspect the event associated with the read.
 
-![ausearch identifies guestlab reading the honeyfile.](evidence/19-ubuntu-honyfile-audit-user-access.png)
+![ausearch identifies guestlab reading the honeyfile.](evidence/19-ubuntu-honeyfile-audit-user-access.png)
 
 **Command:**
 
@@ -324,7 +324,7 @@ The output includes the honeyfile path, the `cat` process, and `guestlab` as the
 
 Write the watch rule to the audit rules directory so it can be loaded from the system's persistent rule configuration.
 
-![The honeyfile watch rule is written under /etc/audit/rules.d.](evidence/20-ubuntu-honyfile-pers-rule.png)
+![The honeyfile watch rule is written under /etc/audit/rules.d.](evidence/20-ubuntu-honeyfile-pers-rule.png)
 
 **Command:**
 
