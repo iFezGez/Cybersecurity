@@ -58,6 +58,7 @@ The environment will continue evolving as additional Security+ objectives and cy
 |---|---|---|---|
 | 1.1 | [Security Controls](Labs/01-Security-Controls/) | Preventive, detective, directive, compensating, and corrective controls | Completed |
 | 1.2 | [Fundamental Security Concepts](Labs/02-Fundamental-Security-Concepts/) | Integrity, authentication, authorization, accounting, deception, and auditing | Completed |
+| 1.3 | [Change Management](Labs/03-Change-Management/) | Change planning, impact analysis, controlled scope changes, dependencies, version control, and backout validation | Completed |
 
 Additional laboratories will be added as I progress through the Security+ SY0-701 objectives.
 
@@ -102,6 +103,11 @@ The completed labs currently document practical experience with:
 - Troubleshooting
 - Backup and recovery
 - Security-control classification
+- Change planning and impact analysis
+- Controlled scope changes and dependency troubleshooting
+- Git-based configuration version control
+- Service restart and post-change validation
+- Backout planning and firewall-rule cleanup
 
 This section will expand as additional Security+ labs are completed.
 

@@ -59,7 +59,10 @@ Cybersecurity/
         ├── 01-Security-Controls/
         │   ├── README.md
         │   └── evidence/
-        └── 02-Fundamental-Security-Concepts/
+        ├── 02-Fundamental-Security-Concepts/
+        │   ├── README.md
+        │   └── evidence/
+        └── 03-Change-Management/
             ├── README.md
             └── evidence/
 ```
