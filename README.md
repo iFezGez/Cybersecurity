@@ -30,6 +30,8 @@ Tools and services used in documented lab work include:
 - OpenSSH
 - Nginx
 - Wireshark
+- OpenSSL
+- Python hashlib
 - auditd / auditctl / ausearch
 - PowerShell Get-FileHash
 
@@ -62,7 +64,10 @@ Cybersecurity/
         ├── 02-Fundamental-Security-Concepts/
         │   ├── README.md
         │   └── evidence/
-        └── 03-Change-Management/
+        ├── 03-Change-Management/
+        │   ├── README.md
+        │   └── evidence/
+        └── 04-Cryptographic-Solutions/
             ├── README.md
             └── evidence/
 ```
@@ -75,6 +80,7 @@ Cybersecurity/
 - Security logging and monitoring
 - Access control
 - File integrity verification
+- Cryptography and PKI fundamentals
 - Authentication, authorization, and accounting
 - Linux security administration
 - Security auditing and deception

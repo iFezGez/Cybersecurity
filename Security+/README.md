@@ -26,6 +26,8 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - OpenSSH
 - Nginx
 - Wireshark
+- OpenSSL
+- Python hashlib
 - PowerShell Get-FileHash
 - auditd, auditctl, and ausearch
 
@@ -45,6 +47,10 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - Secure service configuration
 - Troubleshooting
 - Backup, recovery, and service validation
+- Symmetric and asymmetric cryptography
+- Digital signatures
+- PKI and certificate validation
+- Password salting and key stretching
 
 The environment will continue evolving as additional Security+ objectives and cybersecurity scenarios are implemented.
 
@@ -59,6 +65,7 @@ The environment will continue evolving as additional Security+ objectives and cy
 | 1.1 | [Security Controls](Labs/01-Security-Controls/) | Preventive, detective, directive, compensating, and corrective controls | Completed |
 | 1.2 | [Fundamental Security Concepts](Labs/02-Fundamental-Security-Concepts/) | Integrity, authentication, authorization, accounting, deception, and auditing | Completed |
 | 1.3 | [Change Management](Labs/03-Change-Management/) | Change planning, impact analysis, controlled scope changes, dependencies, version control, and backout validation | Completed |
+| 1.4 | [Cryptographic Solutions](Labs/04-Cryptographic-Solutions/) | Hybrid encryption, digital signatures, PKI and certificates, salting, and key stretching | Completed |
 
 Additional laboratories will be added as I progress through the Security+ SY0-701 objectives.
 
@@ -108,6 +115,11 @@ The completed labs currently document practical experience with:
 - Git-based configuration version control
 - Service restart and post-change validation
 - Backout planning and firewall-rule cleanup
+- OpenSSL-based symmetric and asymmetric cryptography
+- Hybrid encryption with AES and RSA
+- Digital signature creation and verification
+- PKI, CSR, and certificate-chain validation
+- PBKDF2 password derivation, salting, and key stretching
 
 This section will expand as additional Security+ labs are completed.
 
