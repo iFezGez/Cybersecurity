@@ -28,6 +28,8 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - Wireshark
 - OpenSSL
 - Python hashlib
+- grep
+- awk
 - PowerShell Get-FileHash
 - auditd, auditctl, and ausearch
 
@@ -51,6 +53,8 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - Digital signatures
 - PKI and certificate validation
 - Password salting and key stretching
+- Threat actor attribute and motivation analysis
+- Evidence-based incident classification
 
 The environment will continue evolving as additional Security+ objectives and cybersecurity scenarios are implemented.
 
@@ -66,6 +70,12 @@ The environment will continue evolving as additional Security+ objectives and cy
 | 1.2 | [Fundamental Security Concepts](Labs/02-Fundamental-Security-Concepts/) | Integrity, authentication, authorization, accounting, deception, and auditing | Completed |
 | 1.3 | [Change Management](Labs/03-Change-Management/) | Change planning, impact analysis, controlled scope changes, dependencies, version control, and backout validation | Completed |
 | 1.4 | [Cryptographic Solutions](Labs/04-Cryptographic-Solutions/) | Hybrid encryption, digital signatures, PKI and certificates, salting, and key stretching | Completed |
+
+### Domain 2 - Threats, Vulnerabilities, and Mitigations
+
+| Objective | Lab | Topics | Status |
+|---|---|---|---|
+| 2.1 | [Threat Actors and Motivations](Labs/05-Threat-Actors-and-Motivations/) | Threat actor attributes, motivations, incident clue analysis, and PBQ classification | Completed |
 
 Additional laboratories will be added as I progress through the Security+ SY0-701 objectives.
 
@@ -120,6 +130,10 @@ The completed labs currently document practical experience with:
 - Digital signature creation and verification
 - PKI, CSR, and certificate-chain validation
 - PBKDF2 password derivation, salting, and key stretching
+- Shell-based incident filtering and clue extraction with `grep` and `awk`
+- Threat actor classification using evidence from simulated incidents
+- Separation of actor type, internal/external attribute, resources, sophistication, and motivation
+- PBQ-style classification with unsupported motivations left unstated
 
 This section will expand as additional Security+ labs are completed.
 
