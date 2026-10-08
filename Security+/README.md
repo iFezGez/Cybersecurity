@@ -30,6 +30,16 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - Python hashlib
 - grep
 - awk
+- Nmap
+- curl
+- ss
+- systemctl
+- Windows PowerShell (`Get-NetTCPConnection`, `Get-CimInstance`)
+- Windows Defender Firewall
+- file
+- sha256sum
+- zip and unzip
+- sed
 - PowerShell Get-FileHash
 - auditd, auditctl, and ausearch
 
@@ -55,6 +65,10 @@ The Security+ labs are performed primarily in a virtualized environment built wi
 - Password salting and key stretching
 - Threat actor attribute and motivation analysis
 - Evidence-based incident classification
+- Network attack surface and service-exposure assessment
+- Host-listener, process, and network-service correlation
+- Social-engineering message and BEC triage
+- Passive file, hash, archive, and script inspection
 
 The environment will continue evolving as additional Security+ objectives and cybersecurity scenarios are implemented.
 
@@ -76,6 +90,7 @@ The environment will continue evolving as additional Security+ objectives and cy
 | Objective | Lab | Topics | Status |
 |---|---|---|---|
 | 2.1 | [Threat Actors and Motivations](Labs/05-Threat-Actors-and-Motivations/) | Threat actor attributes, motivations, incident clue analysis, and PBQ classification | Completed |
+| 2.2 | [Threat Vectors and Attack Surfaces](Labs/06-Threat-Vectors-and-Attack-Surfaces/) | Network attack surface, service exposure, firewall filtering, phishing/BEC triage, and passive file inspection | Completed |
 
 Additional laboratories will be added as I progress through the Security+ SY0-701 objectives.
 
@@ -134,6 +149,12 @@ The completed labs currently document practical experience with:
 - Threat actor classification using evidence from simulated incidents
 - Separation of actor type, internal/external attribute, resources, sophistication, and motivation
 - PBQ-style classification with unsupported motivations left unstated
+- Nmap TCP port-state assessment and before/after exposure validation
+- Correlation of remote port states with local listeners and Windows service/process data
+- Windows Defender Firewall rule configuration and network-path validation
+- Simulated phishing, smishing, vishing, BEC, pretexting, and typosquatting triage
+- Safe response selection and independent-channel verification
+- Passive file identification, SHA-256 recording, ZIP listing, and script-text inspection without execution
 
 This section will expand as additional Security+ labs are completed.
 
